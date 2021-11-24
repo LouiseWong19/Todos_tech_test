@@ -62,19 +62,23 @@ body .introduction {
   height: 60vh;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
 }
 body .introduction h3 {
   color: #6C6A7C;
 }
 body .introduction .input-box {
+  margin-top: 36px;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 10px;
   width: 80vw;
   background-color: #2B2A33;
   border: 2px dashed #6C6A7C;
   border-radius: 7px;
+  height: 60px;
+  width: 375px;
 }
 body .introduction .input-box .input-box__text {
   background-color: #2B2A33;
@@ -90,6 +94,9 @@ body .introduction .input-box .input-box__submitBtn {
   height: 21px;
   width: 21px;
   border: none;
+}
+body .task {
+  margin-top: 50px;
 }
 body .task h3 {
   color: #6C6A7C;
