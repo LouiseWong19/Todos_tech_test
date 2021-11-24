@@ -4,7 +4,7 @@ body {
   color: #FFFFFF;
 }
 
-header {
+h1 {
   font-size: 24px;
   font-weight: 500;
 }
@@ -13,6 +13,13 @@ button {
   background-image: linear-gradient(180deg, #E1A0A0, #E58181);
   box-shadow: 0 10px 40px #6B3838;
   padding: 10px;
+  border-radius: 7px;
+  height: 50px;
+  width: 120px;
+  color: #FFFFFF;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 button:hover {
@@ -23,4 +30,5 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 20px 26px;
 }
