@@ -1,2 +1,8 @@
 @import "./assets/styles/_variables.scss";
 @import "./assets/styles/_typography.scss";
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
