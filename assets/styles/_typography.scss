@@ -12,6 +12,20 @@ h1{
   font-weight: 500;
 }
 
+h2{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h2,h3{
+  margin-bottom: 18px;
+}
+
 button{
   background-image: linear-gradient(180deg, #E1A0A0, $button-color);
   box-shadow: 0 10px 40px #6B3838;
@@ -24,6 +38,8 @@ button{
   font-size: 16px;
   font-weight: 700;
 }
+
 button:hover{
   background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
 }
+
