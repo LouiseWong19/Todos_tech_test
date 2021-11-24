@@ -64,3 +64,27 @@ header {
 .introduction h3 {
   color: #6C6A7C;
 }
+.introduction .input-box {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 80vw;
+  background-color: #2B2A33;
+  border: 2px dotted #6C6A7C;
+  border-radius: 7px;
+}
+.introduction .input-box .input-box__text {
+  background-color: #2B2A33;
+  width: 65vw;
+}
+.introduction .input-box .input-box__text::placeholder {
+  color: #6C6A7C;
+  font-family: "Jost", sans-serif;
+}
+.introduction .input-box .input-box__submitBtn {
+  margin-left: 5px;
+  border-radius: 50%;
+  height: 21px;
+  width: 21px;
+  border: none;
+}

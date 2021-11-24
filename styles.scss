@@ -26,4 +26,30 @@ header{
     color: $secondary-color;
   }
 
+  .input-box{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 80vw;
+    background-color: $teitary-color;
+    border: 2px dotted $secondary-color;
+    border-radius: 7px;
+    .input-box__text{
+      background-color: $teitary-color;
+      width: 65vw;
+      //border: none;
+    }
+    .input-box__text::placeholder{
+      color: $secondary-color;
+      font-family: $font-family;
+    }
+    .input-box__submitBtn{
+      margin-left: 5px;
+      border-radius: 50%;
+      height: 21px;
+      width: 21px;
+      border: none;
+    }
+  }
+
 }
