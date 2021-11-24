@@ -15,16 +15,16 @@ const recieveTask = () =>{
 
 // Print Task onto the HTML in div
 const printTask = () =>{
-  output.innerHTML += `<div>
-  <input type="checkbox"/>${output.innerHTML = tasks}
+  if (tasks.length != 0){
+  output.innerHTML += `<div class="task__objectives">
+  <input type="checkbox" class="task__checkbox"/>${output.innerHTML = tasks}
   <i class="fas fa-pencil-alt"></i>
   </div>
   `
   // After printing one, clear the array so the second task 
   // won't clash with the first
   tasks=[];
-    
-
+  } 
 }
 
 

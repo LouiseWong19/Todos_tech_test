@@ -86,6 +86,7 @@ body .introduction .input-box .input-box__text {
   width: 65vw;
   color: #FFFFFF;
   font-family: "Jost", sans-serif;
+  font-size: 16px;
 }
 body .introduction .input-box .input-box__text::placeholder {
   color: #6C6A7C;
@@ -104,4 +105,21 @@ body .task {
 body .task h3 {
   color: #6C6A7C;
   margin-top: 21px;
+}
+body .task .task__objectives {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2B2A33;
+  height: 50px;
+  width: 370px;
+  padding: 5px 20px;
+}
+body .task .task__objectives .task__checkbox {
+  border: #E58181;
+  background-color: #2B2A33;
+  font-size: 16px;
+}
+body .task .task__objectives i {
+  font-size: 21px;
 }
