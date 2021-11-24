@@ -56,6 +56,7 @@ body header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 22px;
 }
 body .introduction {
   display: flex;
@@ -83,6 +84,8 @@ body .introduction .input-box {
 body .introduction .input-box .input-box__text {
   background-color: #2B2A33;
   width: 65vw;
+  color: #FFFFFF;
+  font-family: "Jost", sans-serif;
 }
 body .introduction .input-box .input-box__text::placeholder {
   color: #6C6A7C;

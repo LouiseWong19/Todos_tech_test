@@ -13,7 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    //margin: 20px 26px;
+    margin-top: 22px;
   }
 
   .introduction{
@@ -43,6 +43,8 @@ body{
       .input-box__text{
         background-color: $teitary-color;
         width: 65vw;
+        color: $font-color;
+        font-family: $font-family;
         //border: none;
       }
       .input-box__text::placeholder{
